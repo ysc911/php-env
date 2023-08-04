@@ -7,6 +7,7 @@
     ],
     "type": "library",
     "license": "MIT",
+    "version": "1.00",
     "autoload": {
         "psr-4": {
             "Ysc911\\PhpEnv\\": "src/"
@@ -18,7 +19,7 @@
             "email": "45684639@qq.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">= 7.0"
     }
