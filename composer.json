@@ -1,6 +1,10 @@
 {
     "name": "ysc911/php-env",
     "description": "php获取env环境变量",
+    "keywords": [
+        "env",
+        "PHP"
+    ],
     "type": "library",
     "license": "MIT",
     "version": "1.00",
@@ -16,5 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">= 7.0"
+    }
 }
