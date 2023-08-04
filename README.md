@@ -8,5 +8,6 @@ $env = new PhpEnv();
 $env->get('APP_DEBUG', false);
 
 可自定义文件路径
+
 $env = new PhpEnv();
 $env->load($_SERVER['DOCUMENT_ROOT'] . '/wwwroot/.env')
