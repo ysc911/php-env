@@ -21,7 +21,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">= 7.0",
-        "ysc911/php-env": "dev-main"
+        "php": ">= 7.0"
     }
 }
