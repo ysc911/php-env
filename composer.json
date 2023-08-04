@@ -1,0 +1,20 @@
+{
+    "name": "ysc911/php-env",
+    "description": "php获取env环境变量",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.00",
+    "autoload": {
+        "psr-4": {
+            "Ysc911\\PhpEnv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ysc",
+            "email": "45684639@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
