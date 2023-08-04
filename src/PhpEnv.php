@@ -1,6 +1,6 @@
 <?php
 
-namespace Ysc911\PhpEnv;
+namespace Ysc911;
 
 use ArrayAccess;
 
