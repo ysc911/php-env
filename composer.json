@@ -7,7 +7,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "version": "1.00",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Ysc911\\PhpEnv\\": "src/"
