@@ -15,5 +15,6 @@
             "email": "45684639@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
