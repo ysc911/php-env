@@ -2,12 +2,11 @@
 
 namespace Ysc911;
 
-use ArrayAccess;
 
 /**
  * Env管理类
  */
-class PhpEnv implements ArrayAccess
+class PhpEnv
 {
     /**
      * 环境变量数据
@@ -49,7 +48,7 @@ class PhpEnv implements ArrayAccess
     /**
      * 获取环境变量值
      * @access public
-     * @param string $name 环境变量名
+     * @param mixed $name 环境变量名
      * @param mixed $default 默认值
      * @return mixed
      */
@@ -164,30 +163,5 @@ class PhpEnv implements ArrayAccess
     public function __isset(string $name): bool
     {
         return $this->has($name);
-    }
-
-    // ArrayAccess
-    #[\ReturnTypeWillChange]
-    public function offsetSet($name, $value): void
-    {
-        $this->set($name, $value);
-    }
-
-    #[\ReturnTypeWillChange]
-    public function offsetExists($name): bool
-    {
-        return $this->__isset($name);
-    }
-
-    #[\ReturnTypeWillChange]
-    public function offsetUnset($name): void
-    {
-        throw new Exception('not support: unset');
-    }
-
-    #[\ReturnTypeWillChange]
-    public function offsetGet($name)
-    {
-        return $this->get($name);
     }
 }
